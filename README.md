@@ -1,6 +1,6 @@
-## Usage
+## Usage / Использование
 ```
-git clone https://github.com/ripunk/wlan0mon.git
+git clone https://github.com/sevralti/wlan0mon.git
 
 cd wlan0mon          
 ls         
@@ -10,9 +10,4 @@ chmod +x monen mondis
 ./monen      
 
 #stop      
-./mondis         
-```
-         
-### Tutorial         
-
-### YOUTUBE https://youtu.be/EmO-N7NHbb0
+./mondis
