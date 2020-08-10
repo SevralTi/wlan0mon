@@ -12,12 +12,12 @@
 CONF="11 40 1 111 0"
 
 if [ "$(id -u)" != "0" ]; then
-	echo "This script must be run as root"
+	echo "This script must be run as root or try to run this sctipt with sudo"
 	exit 1
 fi
 
 if [ ! -e "/sys/module/wlan/parameters/con_mode" ]; then
-	echo "Looks like you have an unsupported device"
+	echo "You have an unsupported device, or your processor is not Qualcomm!"
 	exit 1
 fi
 
